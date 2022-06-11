@@ -1,0 +1,26 @@
+.singleview-frame {
+    background: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    color: white;
+    width: 50%;
+    max-width: 540px;
+    height: auto;
+    min-width: 320px;
+    min-height: 320px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+    grid-template: "contentImage"
+                   "contentDescription"
+                   "contentAction";
+
+    .content-image {
+        max-width: 50%;
+        margin: auto;
+        grid-area: contentImage;
+    }
+}

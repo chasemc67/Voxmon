@@ -1,0 +1,2 @@
+/token/:tokenId /.netlify/functions/token/:tokenId 200
+/* /index.html 200

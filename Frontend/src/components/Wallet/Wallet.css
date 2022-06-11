@@ -1,0 +1,18 @@
+#walletButton {
+  text-align: right;
+  line-height: 16px;
+  height: 42px;
+  width: 100%;
+  padding: 0px 12px;
+}
+
+.navButton a:link, .navButton a:visited {
+  color: black
+} 
+
+
+#signout_button {
+  height: 42px;
+  text-align: center;
+  width: 100%;
+}

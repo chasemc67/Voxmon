@@ -1,0 +1,8 @@
+[build]
+command = "npm run build && npm run functions"
+functions = "functions"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"

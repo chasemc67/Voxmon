@@ -1,0 +1,10 @@
+.degrading-image {
+    padding: 25px;
+    display: inline-block;
+    canvas {
+        max-width: 250px;
+        max-height: 250px;
+        width: 100%;
+        height: 100%;
+    }
+}

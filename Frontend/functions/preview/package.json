@@ -1,0 +1,12 @@
+{
+    "name": "preview-functions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "author": "",
+    "dependencies": {
+        "firebase": "^9.1.2",
+        "firebase-admin": "^9.11.0"
+    }
+}

@@ -1,0 +1,131 @@
+.voting {
+
+    h1 {
+        font-size: 50px
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    button:enabled {
+        color: black;
+    }
+
+    .voting-frame {
+        width: 90%;
+        margin: 20px auto;
+        max-width: 1200px;
+
+        .content-frame {
+            border-color: transparent;
+        }
+    }
+
+    .instructions-frame {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .content-frame {
+        &.body {
+            margin-top: 20px;
+        }
+    }
+
+    .info-frame {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #votes-selected {
+        margin-top: 20px;
+    }
+
+    #connected-wallet-text {
+        color: green;
+    }
+
+    #disconnected-wallet-text {
+        color: red;
+    }
+
+    #vote-button {
+        margin-left: 20px;
+    }
+
+    #my-votes {
+        margin-left: 20px;
+    }
+
+    .content-frame {
+        padding: 20px 0px;
+    }
+
+    .info-frame {
+        background: black;
+    }
+
+    .button-frame {
+        background-color: black;
+    }
+
+    .social-logos {
+        margin-top: 50px;
+        display: block;
+        img {
+            display: inline-block;
+            height: auto;
+            &#discord {
+                width: 70px;
+                height: auto;
+                margin-left: 25px;
+            }
+            &#twitter {
+                width: 48px;
+                margin-right: 25px;
+            }
+            &#medium {
+                width: 48px;
+                margin-right: 25px;
+                margin-left: 25px;
+            }
+        }
+        @media (min-width: 600px) {
+            img {
+                &#discord {
+                    width: 150px;
+                }
+                &#twitter {
+                    width: 100px;
+                }
+                &#medium {
+                    width: 100px;
+                }
+            }
+        }
+    }
+
+    .spacing {
+        height: 100px;
+    }
+}

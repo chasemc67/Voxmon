@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); */
+
+@font-face {
+  font-family: 'vcr mono';
+  src: url('fonts/VCR_OSD_MONO.woff2') format('woff2');
+  font-display: block;
+}
+
+* {
+  font-family: 'vcr mono';
+}
+
+body {
+  margin: 0;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+#root {
+  height: 100%
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  border-color: rgba(4, 4, 5, 0.1);
+  border-radius: 8px;
+  padding: 0 8px;
+  margin: 0px;
+  height: 36px;
+}
+
+input:focus {
+  outline: none;
+  border-color: transparent
+}
+
+button {
+  padding: 9px 16px;
+  max-height: 40px;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer;
+  border: none;
+}
+
+.navButton {
+  line-height: 16px;
+  height: 42px;
+  width: 100%;
+  padding: 0px 12px;
+}
+
+button.dark {
+  background-color: black;
+  color: white
+}
+button.light {
+  background-color: white;
+  color: black;
+}
+
+button:disabled {
+  background-color: darkgray;
+}
+
+#title {
+  padding-top: 32px;
+}
+
+#status {
+  color:red;
+}
+
+.uploadFile {
+  border: 4px dashed rgba(4, 4, 5, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  padding: 32px 60px;
+}

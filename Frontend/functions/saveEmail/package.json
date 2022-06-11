@@ -1,0 +1,11 @@
+{
+    "name": "saveemail-functions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "author": "",
+    "dependencies": {
+        "firebase-admin": "^9.11.0"
+    }
+}

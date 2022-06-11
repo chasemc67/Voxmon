@@ -1,0 +1,46 @@
+*/node_modules/
+*/.env
+*/artifacts/
+*/cache/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+*/.pnp
+*/.pnp.js
+
+# testing
+*/coverage
+
+# production
+*/build
+
+# misc
+*/.DS_Store
+*/.env
+*/.env.local
+*/.env.development.local
+*/.env.test.local
+*/.env.production.local
+
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+
+*/functions/**/node_modules
+arweave-keys/
+
+
+
+# Elastic Beanstalk Files
+Backend/.elasticbeanstalk/*
+Backend/!.elasticbeanstalk/*.cfg.yml
+Backend/!.elasticbeanstalk/*.global.yml
+Backend.zip
+
+datasets/
+arweave-keys/
+datasets/
+
+*/serviceAccount.json

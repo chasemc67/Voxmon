@@ -1,0 +1,12 @@
+{
+    "attributes" : [ {
+      "trait_type" : "Type",
+      "value" : "Electric"
+    }, {
+      "trait_type" : "Attack",
+      "value" : "100"
+    } ],
+    "description" : "An electric tadpole with a frog-sized punch",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmXZFXqYgW6zVHEJBZ7aVNFstv7PZHJiWGsfim7kxymx4N",
+    "name" : "Albapod"
+}

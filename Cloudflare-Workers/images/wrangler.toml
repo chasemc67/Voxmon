@@ -1,0 +1,11 @@
+name = "images"
+type = "webpack"
+
+account_id = "128dfe85b13c7d49daa292e6e6a82f4e"
+workers_dev = true
+compatibility_date = "2021-12-06"
+
+[env.production]
+route = "voxmon.io/preview/*"
+zone_id = "2992d9464793b419e51b65291246ef26"
+compatibility_date = "2021-12-06"
